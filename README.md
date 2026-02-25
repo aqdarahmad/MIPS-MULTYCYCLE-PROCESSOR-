@@ -85,7 +85,7 @@ This project focuses on clean RTL design, modular hierarchy, and accurate contro
 - **Design Style:** Synthesizable RTL
 - **Simulator:** Cadence Xcelium (`xrun`)
 - **Waveform Debug:** SimVision
-- **Target:** ASIC-style RTL development flow
+
 
 ---
 
