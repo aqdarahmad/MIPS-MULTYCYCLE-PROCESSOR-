@@ -1,0 +1,12 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(25Feb2026:21:00:39):( xrun testbench.sv )&&(./xcelium.d/env.d/env.history.25Feb2026_21_00_39)
+s2::(25Feb2026:21:01:27):( xrun testbench.sv top.sv )&&(./xcelium.d/env.d/env.history.25Feb2026_21_01_27)
+s3::(25Feb2026:21:01:53):( xrun top.sv testbench.sv )&&(./xcelium.d/env.d/env.history.25Feb2026_21_01_53)
+s4::(25Feb2026:21:02:19):( xrun rtl/top.sv testbench.sv )&&(./xcelium.d/env.d/env.history.25Feb2026_21_02_19)
+s5::(25Feb2026:21:10:14):( xrun -uvm -f filelist.f -access +rwc -gui )&&(./xcelium.d/env.d/env.history.25Feb2026_21_10_14)
+s6::(25Feb2026:21:10:33):( xrun -sv -f filelist.f -top testbench )&&(./xcelium.d/env.d/env.history.25Feb2026_21_10_33)
+s7::(25Feb2026:21:11:36):( xrun -sv ../rtl/components.sv ../rtl/control_unit.sv ../rtl/datapath.sv ../rtl/top.sv testbench.sv -timescale 1ns/1ps -access +rwc -log xrun.log -top testbench )&&(./xcelium.d/env.d/env.history.25Feb2026_21_11_36)
+s8::(25Feb2026:21:17:05):( xrun -sv ../rtl/components.sv ../rtl/control_unit.sv ../rtl/datapath.sv ../rtl/top.sv testbench.sv -timescale 1ns/1ps -access +rwc -log xrun.log -top testbench )&&(./xcelium.d/env.d/env.history.25Feb2026_21_17_05)

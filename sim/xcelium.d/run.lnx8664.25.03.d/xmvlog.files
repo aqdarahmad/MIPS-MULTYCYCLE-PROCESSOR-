@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/home/Trainee23/multicycle-processor/rtl/components.sv
+/home/Trainee23/multicycle-processor/rtl/control_unit.sv
+/home/Trainee23/multicycle-processor/rtl/datapath.sv
+/home/Trainee23/multicycle-processor/rtl/top.sv
+/home/Trainee23/multicycle-processor/sim/testbench.sv

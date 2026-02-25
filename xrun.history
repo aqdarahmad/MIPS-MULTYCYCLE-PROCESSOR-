@@ -1,0 +1,2 @@
+#e1(25Feb2026:21:15:34): source ./xcelium.d/env.d/env.history.25Feb2026_21_15_34
+s1(25Feb2026:21:15:34):  xrun -sv ../rtl/components.sv ../rtl/control_unit.sv ../rtl/datapath.sv ../rtl/top.sv testbench.sv -timescale 1ns/1ps -access +rwc -log xrun.log -top testbench 

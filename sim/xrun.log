@@ -1,0 +1,35 @@
+xrun(64): 25.03-s006: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	25.03-s006: Started on Feb 25, 2026 at 21:17:05 EET
+xrun
+	-sv
+	../rtl/components.sv
+	../rtl/control_unit.sv
+	../rtl/datapath.sv
+	../rtl/top.sv
+	testbench.sv
+	-timescale 1ns/1ps
+	-access +rwc
+	-log xrun.log
+	-top testbench
+Loading snapshot worklib.testbench:sv .................... Done
+xcelium> source /usr/cadence/installs/XCELIUM2503/tools/xcelium/files/xmsimrc
+xcelium> run
+xmsim: *W,RMEMNOF: $readmem error: open failed on file "program.hex".
+            File: ../rtl/components.sv, line = 100, pos = 35
+           Scope: testbench.DUT.DP.MEM
+            Time: 0 FS + 0
+
+==============================
+       Test Results           
+==============================
+$t0 (reg  8) = x  (expected 5)
+$t1 (reg  9) = x  (expected 3)
+$t2 (reg 10) = x  (expected 8)
+$t3 (reg 11) = x  (expected 8)
+Memory[0]   = 537395205  (expected 8)
+==============================
+FAIL: Result is wrong!
+Simulation complete via $finish(1) at time 515 NS + 0
+./testbench.sv:72         $finish;
+xcelium> exit
+TOOL:	xrun(64)	25.03-s006: Exiting on Feb 25, 2026 at 21:17:06 EET  (total: 00:00:01)
